@@ -8,14 +8,15 @@ public class IntParser {
     }
 
     public int parse(String line) {
-        // to Do
+        return Integer.parseInt(line);
     }
 
     public int parse(long num) {
-        // to Do
+        return (int) num;
     }
 
     public int parse(byte num) {
-        // to Do
+        int intNum = num;
+        return intNum;
     }
 }
